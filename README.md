@@ -13,3 +13,4 @@ test another commit to local and origin to test if prompted for login after vsco
 8/11 - lets update version in branch2 with how we merged code into this version
        switched to branch2, command pallette Git:Merge from branch1 (same as git merge branch1)
        now commit this file into branch2
+8/11 - will merge into master now from branch2
