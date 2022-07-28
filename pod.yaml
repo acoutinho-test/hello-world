@@ -1,0 +1,16 @@
+# Sample k2s pod creation file
+# kubectl create -f pod.yaml
+# Edited the yaml plugin settings.json to say all yaml files should have kubernetes schema setting
+# Check out outline on left-menu to see hierarchical structure of this file
+# note cant run kubectl here since installed on bash shell see ~newuser/eks-testing
+# tip: ctrl+space ==> code completion
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx3
+  labels:
+    env: production
+spec:
+  containers:
+    - name: nginx
+      image: nginx
